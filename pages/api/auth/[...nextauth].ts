@@ -10,7 +10,7 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   pages: {
-    signIn: "google",
+    signIn: "/auth/signin",
   },
   secret: process.env.NEXTAUTH_SECRET,
 
