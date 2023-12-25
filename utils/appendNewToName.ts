@@ -5,3 +5,4 @@ export default function appendNewToName(name: string) {
     .concat("-new", name.substring(insertPos));
   return newName;
 }
+
